@@ -1,0 +1,39 @@
+<script type="module" src="https://code4fukui.github.io/Wirth/web.js"></script>
+<script type="text/wirth">
+function bg, show from "https://js.sabae.cc/egadv.js"
+
+bg(100)
+show("朝起きたら、目の前に巨大なボタンがあった")
+a <- show("押す?","押す","押さない")
+
+if a = "押す" then
+  show("世界が爆発した")
+  bg(404)
+  show("おわり")
+endif
+
+if a = "押さない" then
+  show("ボタンが勝手に押された")
+  show("世界が爆発した")
+  bg(404)
+  show("おわり")
+endif
+
+show("でも夢だった…と思った?")
+bg(333)
+b <- show("もう一回寝る?","寝る","起きる")
+
+if b = "寝る" then
+  show("二度寝中に隕石が直撃")
+  bg(999)
+  show("おわり")
+endif
+
+if b = "起きる" then
+  show("目を開けたら学校だった…")
+  show("しかもテストの日")
+  show("何も勉強してない!")
+  bg(888)
+  show("おわり")
+endif
+</script>
